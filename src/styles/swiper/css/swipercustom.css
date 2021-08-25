@@ -21,7 +21,7 @@
 .swipermy-slide-link{
   height: 390px;
     width: 100%;
-    position: relative;
+    position: absolute;
     z-index: 100;
 }
 .swipermy-slide-link-ani{

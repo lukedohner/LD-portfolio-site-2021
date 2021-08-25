@@ -108,7 +108,7 @@ const Swipermy = () => {
 
 <SwiperSlide>
             <div className={`parallax-bg swipermy-slide swiper-img-ablecare`}>
-            
+            <Link className={`swipermy-slide-link`}  to="/ableto"></Link>
             
               <div className={`swipermy-container`}>
               <div className={`row`}>
@@ -156,7 +156,7 @@ const Swipermy = () => {
 </SwiperSlide>            
 <SwiperSlide>
             <div className={`swipermy-slide swiper-img-edgemount`}>
-             
+             <Link className={`swipermy-slide-link`}  to="/edgemont"></Link>
              
               <div className={`swipermy-container`}>
               <div className={`row`}>
@@ -206,13 +206,13 @@ const Swipermy = () => {
 <SwiperSlide>
              <div className={`swipermy-slide swiper-img-optioncare`}>
              
-             
+             <Link className={`swipermy-slide-link`}  to="/Optioncare"></Link>
               <div className={`swipermy-container`}>
               <div className={`row`}>
                 <div className={`col-md-12 fadein scaleInv anim_1 hidden-xs`}>
             
                   <div className={`fadein scaleInv anim_2`}>
-                    <h2 className={`carouselTitle1 animated fadeInLBig notransition`}><span className={`slide-header`}>Edgemont </span><br />Capital</h2>
+                    <h2 className={`carouselTitle1 animated fadeInLBig notransition`}><span className={`slide-header`}>Option </span><br />Care</h2>
                   </div>
                   <div className={`fadein scaleInv anim_1`}>
                     <p className={`carouselRoll2 animated fadeInLeft`}>
@@ -253,7 +253,7 @@ const Swipermy = () => {
 </SwiperSlide>
 <SwiperSlide>
             <div className={`swipermy-slide swiper-img-dell`}>
-             
+             <Link className={`swipermy-slide-link`}  to="/DellTech"></Link>
              
               <div className={`swipermy-container`}>
               <div className={`row`}>
@@ -301,7 +301,7 @@ const Swipermy = () => {
 </SwiperSlide> 
 <SwiperSlide>           
             <div className={`swipermy-slide swiper-img-nbcu`}>
-            
+            <Link className={`swipermy-slide-link`}  to="/NBCU"></Link>
              
               <div className={`swipermy-container`}>
               <div className={`row`}>
@@ -349,7 +349,7 @@ const Swipermy = () => {
 </SwiperSlide>
 <SwiperSlide>
             <div className={`swipermy-slide swiper-img-wataah`}>
-             
+            <Link className={`swipermy-slide-link`}  to="/Watahh"></Link> 
              
               <div className={`swipermy-container`}>
               <div className={`row`}>
@@ -397,7 +397,7 @@ const Swipermy = () => {
 </SwiperSlide>
 <SwiperSlide>
             <div className={`swipermy-slide swiper-img-wilmette`}>
-             
+            <Link className={`swipermy-slide-link`}  to="/Wilmette"></Link> 
              
               <div className={`swipermy-container`}>
               <div className={`row`}>
@@ -446,7 +446,7 @@ const Swipermy = () => {
 <SwiperSlide>            
 
             <div className={`swipermy-slide swiper-img-clairmail`}>
-             
+            <Link className={`swipermy-slide-link`}  to="/MobileBanking"></Link> 
             
               <div className={`swipermy-container`}>
               <div className={`row`}>
@@ -494,7 +494,7 @@ const Swipermy = () => {
 </SwiperSlide>
 <SwiperSlide>
               <div className={`swipermy-slide swiper-img-banners`}>
-             
+              <Link className={`swipermy-slide-link`}  to="/banners"></Link>
             
               <div className={`swipermy-container`}>
               <div className={`row`}>

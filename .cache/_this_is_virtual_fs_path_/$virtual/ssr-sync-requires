@@ -6,6 +6,7 @@
 exports.ssrComponents = {
   "component---cache-dev-404-page-js": preferDefault(require("/luke_projects_all/Luke-site-calypsoBootstrap/calypso/gatsby-ld/LukeSite-Build-From-Scratch-Aug11-2021/LD-portfolio-site/.cache/dev-404-page.js")),
   "component---src-pages-404-js": preferDefault(require("/luke_projects_all/Luke-site-calypsoBootstrap/calypso/gatsby-ld/LukeSite-Build-From-Scratch-Aug11-2021/LD-portfolio-site/src/pages/404.js")),
+  "component---src-pages-ableto-js": preferDefault(require("/luke_projects_all/Luke-site-calypsoBootstrap/calypso/gatsby-ld/LukeSite-Build-From-Scratch-Aug11-2021/LD-portfolio-site/src/pages/ableto.js")),
   "component---src-pages-index-js": preferDefault(require("/luke_projects_all/Luke-site-calypsoBootstrap/calypso/gatsby-ld/LukeSite-Build-From-Scratch-Aug11-2021/LD-portfolio-site/src/pages/index.js"))
   }
 

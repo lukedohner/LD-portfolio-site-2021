@@ -1,0 +1,118 @@
+.slider-header {
+    color: #ffffff;
+    font-size: 44px;
+    margin-right: 1px;
+}
+
+
+.swipermy-container {
+    /*position: absolute;*/
+    height: 333px;
+}
+.swipermy-slide {
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    -webkit-box-pack: center;
+    /*justify-content: center;  */
+
+}
+.swipermy-slide-link{
+  height: 390px;
+    width: 100%;
+    position: relative;
+    z-index: 100;
+}
+.swipermy-slide-link-ani{
+  height: 390px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: relative;
+    z-index: 100;
+}
+.swiper-img-1,.swiper-img-2,.swiper-img-3,.swiper-img-4{
+  height: 390px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/*images for slider*/
+.swiper-img-whiskey {
+  background-image: url(../../../images/swiper/slide-whiskey.jpg);
+  background-repeat: no-repeat;
+}
+.swiper-img-ablecare {
+  background-image: url(../../../images/swiper/slide-ablecare.jpg);
+  background-repeat: no-repeat;
+}
+.swiper-img-edgemount {
+  background-image: url(../../../images/swiper/slide-edgemount.jpg);
+  background-repeat: no-repeat; 
+}
+.swiper-img-dell {
+  background-image: url(../../../images/swiper/slide-dell.jpg);
+  background-repeat: no-repeat;
+}
+.swiper-img-optioncare {
+  background-image: url(../../../images/swiper/slide-optioncare.jpg);
+  background-repeat: no-repeat;
+}
+.swiper-img-nbcu {
+  background-image: url(../../../images/swiper/slide-nbcu.jpg);
+  background-repeat: no-repeat;
+}
+.swiper-img-banners {
+  background-image: url(../../../images/swiper/slide-banners.jpg);
+  background-repeat: no-repeat;
+}
+.swiper-img-chambers {
+  background-image: url(../../../images/swiper/slide-chambers.jpg);
+  background-repeat: no-repeat;
+}
+.swiper-img-clairmail {
+  background-image: url(../../../images/swiper/slide-clairmail.jpg);
+  background-repeat: no-repeat;
+}
+.swiper-img-lighthouse {
+  background-image: url(../../../images/swiper/slide-lighthouse.jpg);
+  background-repeat: no-repeat;
+}
+.swiper-img-wataah {
+  background-image: url(../../../images/swiper/slide-wataah.jpg);
+  background-repeat: no-repeat;
+}
+.swiper-img-wilmette {
+  background-image: url(../../../images/swiper/slide-wilmette.jpg);
+  background-repeat: no-repeat;
+}
+.swiper-img-aestheticcare {
+  background-image: url(../../../images/swiper/slide-aestheticcare.jpg);
+  background-repeat: no-repeat;
+}
+.swiper-img-mcgraw {
+  background-image: url(../../../images/swiper/slide-mcgraw.jpg);
+  background-repeat: no-repeat;
+}
+
+.swiper-img-kabuki-1, .swiper-img-kabuki-2, .swiper-img-kabuki-3{
+  background-image: url(../../../images/kabuki/kabuki-1.jpg);
+  background-size: cover;
+  height: 300px;
+}
+.swiper-img-kabuki-2 {
+  background-image: url(../../../images/kabuki/kabuki-2.jpg);
+}
+.swiper-img-kabuki-3 {
+  background-image: url(../../../images/kabuki/kabuki-3.jpg);
+}
+.swiper-wrapper{
+
+}
+
+
+
+
+
+

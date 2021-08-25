@@ -1,0 +1,58 @@
+
+.bluetext {
+  color: blue;
+}
+.litegreen a{
+  color:#86a9322e;
+}
+.litegreen:hover a{
+  color:#1bbde2;
+}
+.carousel-inner .container {
+  padding-left: 60px;padding-right: 60px;
+}
+.ml-1 {
+  margin-left: ($spacer * .25) !important;
+}
+.mt-50 {
+  margin-top: 50px;
+  
+}
+.mb-50 {
+  margin-bottom: 50px;
+}
+.padding50{
+  padding:50px;
+}
+.px-2 {
+  padding-left: ($spacer * .5) !important;
+  padding-right: ($spacer * .5) !important;
+}
+.slide-header{
+  color:#96C031;
+}
+.portrait-ld {
+  float: right;
+  border-radius: 0px 50px 50px 50px;
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: 10% 58%;
+  background-image: url(../images/ld-portrait.jpg);
+  
+}
+
+.grey-text{
+  color:#888;
+}
+.pageheader-default {
+    -webkit-background-size: cover !Important;
+    -moz-background-size: cover !Important;
+    -o-background-size: cover !Important;
+    background-size: cover !Important;
+    background: url(img/groundcover.jpg);
+    color: #fff;
+    background-attachment: fixed;
+}
+
+

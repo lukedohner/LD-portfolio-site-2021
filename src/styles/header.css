@@ -1,0 +1,40 @@
+.logo-main {
+  background-image: url(../images/logo-main.png);
+  height: 43px;
+  width: 364px;
+  background-repeat: no-repeat;
+  position: relative;
+  display:block;
+}
+
+.header{
+  background-color: #ffffff;
+  /*margin: 70px;*/
+  border: 1px solid #9c9494;
+  /*max-width: 960;*/
+  padding: 0px 19px;
+  height: 97px;
+}
+
+.nav-header{
+	float: right;
+	text-decoration: none;
+	font-size: .7em;
+  font-family: sans-serif;
+  position: relative;
+  bottom: 55px;
+}
+.nav-header a{
+	color: black;
+}
+.navbar-toggle {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer; 
+    color: rgba(255,255,255,0.8);
+    font-size: 24px;
+}
+.pull-rt-or-lt{
+  float:right
+}

@@ -1,0 +1,61 @@
+.colortext {        
+    color: #ffffff;
+    font-size: 29px;
+    margin-right: 1px;
+}
+.colorbg {background:#96C031}
+a { color:#86a932}
+::selection{background:#96C031}
+.navbar-nav>li.active>a,.navbar-nav>li.active>a:hover,.navbar-nav>li.active>a:focus {background-color:#96C031}
+.navbar-nav>li.active>a:before,.navbar-nav>li>a:hover:before,.navbar-nav>li>a:focus:before,.extra-nav-class a.dropdown-toggle:before {border-bottom:0px solid #96C031}
+.navbar-nav>li>a:hover,.navbar-nav>li>a:focus { background-color:##96c03100}
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus {background-color:#afe630 !Important;}
+.extra-nav-class a.dropdown-toggle {    background-color:#afe630 !Important;}
+.car-highlight1 {background-color:#96C031}
+.car-smallcircle {background:#96C031}
+.carouselText2 {    background:#96C031}
+.carouselRoll2 {    background:#96C031}
+.icon-box-top i:hover {background-color:#96C031}
+.fontawesome-icon.circle-white {    color:#96C031}
+.grey-box-icon:hover .fontawesome-icon.circle-white,.grey-box-icon.active .fontawesome-icon.circle-white,.active i.fontawesome-icon {background-color:#96C031}
+.home-features .icon {background:#96C031}
+.copyright {
+    background-color: #c0dfe6;
+    padding-top: 8px;
+}
+.panel1 {border-left:6px solid #96C031}
+.buttoncolor {background:#96C031}
+.panel,.panel2 {    border-left:8px solid #96C031}
+.btn-default {background-color:#96C031}
+.btn-minimal:hover {    color: #96C031}
+.sidebar h4 {color:#96C031}
+.nav-tabs>.active>a,.nav-tabs>.active>a:hover {color: #afe630 !important;}
+blockquote {border-left:5px solid #96C031}
+#skill i {background:#96C031}
+.service-fancybox:hover i {color:#96C031}
+.service-fancybox:hover {background:#96C031}
+.service-fancybox.featured {    background:#96C031}
+.service-fancybox.featured .circleicon i {color:#96C031}
+.service-fancybox.black .circleicon i {color:#96C031}
+.cbp_tmtimeline>li .cbp_tmicon {background:#96C031}
+.services i {   color:#96C031}
+.pagination>.active>a,.pagination>.active>span,.pagination>.active>a:hover,.pagination>.active>span:hover,.pagination>.active>a:focus,.pagination>.active>span:focus {background-color:#96C031}
+.landingpage-button {color:#96C031}
+.landingpage-button {color:#96C031}
+.landingpage-button span {color:#96C031}
+.landingpage-button strong {color:#96C031}
+.landingpage-button i {color:#96C031}
+.active-header {    background:#96C031}
+.active-header:hover {background:#96C031}
+#filter ul li .selected {background: #afe630 !Important;}
+.drop-capdouble, .drop-cap, .captionicons {background:#96C031}
+.pageheader-default .semitransparentbg {background: rgba(175, 230, 48,0.70) !important;}
+.bgarea-semitransparent {background: #2f1e1e !important;}
+.pageheader-default .semitransparentbg {
+    background: rgba(175, 230, 48,0.70) !important;
+}
+.redemptionbg {
+    background: rgba(220, 136, 20, 0.67) !important;
+    padding-bottom: 35px;
+    padding-top: 20px;
+}

@@ -1,0 +1,446 @@
+/* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	select .tinynav {
+		padding-right:18px
+	}
+}
+@media(max-width:1200px) {
+h3.landingpage {line-height: 25px;font-size: 18px;}
+h1.landingpage {margin-left:10px;margin-top: 0px;font-size: 40px;line-height: 50px;}
+}
+@media screen and (min-width:600px) and (max-width:1200px) {
+	#c-slide .slide1-1 {
+		margin-top:-205px;
+	}
+	#c-slide .item {
+		/*height:auto;*/
+		height:100px;
+		/*background-position-x: 600px !important;*/
+		padding:30px 0px 90px;
+		height:390px;
+		/*text-align:center;*/
+	}
+	.carouselText1 {margin-top: 20px;}
+	.slide1-3{top:100px;}
+	.slide1-2{right:150px;}
+	
+}
+
+.boxportfolio4{width:22%}
+
+
+@media(max-width:992px) {
+.boxportfolio1, .boxportfolio2, .boxportfolio3, .boxportfolio4 {width:auto;}
+.bgarea-semitransparent {
+text-align: center;
+}
+#carousel-featuredwork .item {
+    margin-left: 27%;
+    }
+
+/*.carousel-indicators {
+  width: 16%;
+  margin-left: -34%;
+  margin-bottom: -52px;
+}*/
+.landingpage-button {text-align: center;display: inline-block;}
+.pageheader-default {margin-top: 130px;}
+h1.landingpage {margin-left:10px;font-size: 28px;line-height: 25px;}
+h3.landingpage {line-height: 25px;font-size: 18px;}
+	iframe {
+		max-width:100%;
+	}
+	#nav {
+		/*display:none;*/
+	}
+	.pull-rt-or-lt{
+  		float: left;
+	}
+	.navbar-nav>li {
+    /*height: 56px;*/
+	}
+	.navbar-nav>li>a {  
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-left: 16px;
+	}
+	.toparea {
+		position:absolute;
+		top:0;
+		width:100%;
+		z-index:1;
+	}
+	.toparea .social-icons {
+		display:none;
+	}
+	body {
+		color:#000;
+	}
+	.boxcontainer h1 a, .boxcontainer p{font-size:10px;}
+}
+@media screen and (min-width:600px) and (max-width:992px) {
+	#c-slide {
+		margin-top:127px;
+	}
+	.tinynav {
+			margin-bottom:0;
+		float:right;
+		margin-right: 4px;
+		font-weight:500;
+		height:40px;
+		padding:3px;
+		margin-top:0px;
+		-webkit-border-radius:4px;
+		-moz-border-radius:4px;
+		border-radius:4px;
+		-webkit-box-shadow:0 3px 0 #ccc,0 -1px #fff inset;
+		-moz-box-shadow:0 3px 0 #ccc,0 -1px #fff inset;
+		box-shadow:0 3px 0 #ccc,0 -1px #fff inset;
+		background:#f54828;
+		color:#fff;
+		font-size:14px;
+		border:none;
+		outline:none;
+		display:inline;
+		-webkit-appearance:none;
+		-moz-appearance:none;
+		appearance:none;
+		cursor:pointer;
+		-webkit-padding-start:20px;
+		-webkit-border-radius:0px;
+		-moz-border-radius:0px;
+		border-radius:0px;
+	}
+	.footer h1 {
+		margin-top:20px;
+	}
+	.navbar {
+		padding-left:15px;
+		padding-right:15px;
+	}
+	
+	#c-slide .item {
+		/*height:auto;*/
+		/*background-position-x: 600px !important;*/
+		padding:30px 0px 90px;
+		max-height:395px;
+		/*text-align:center;*/
+	}
+}
+@media screen and (min-width:601px) and (max-width:767px) {
+	.tinynav {
+		margin-top:-40px;
+	}
+}
+/*iPhone 5*/
+@media screen and (max-width:600px) {
+	.pageheader-default h1 {
+	color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    margin-top: 1px;
+    margin-bottom: 0;
+    line-height: 39px;
+    font-size: 29px;
+	}
+	.pageheader-default p{
+	margin-top: 20px;
+	font-size: 19px;
+	}
+	.intro-note h1 {
+    font-size: 17px;    
+    }
+	
+.landingpage-button strong {margin-left: 0;font-size: 14px;}
+.landingpage-button i {display:none;}
+.landingpage-button {width: 180px;text-align: center;display: inline-block;}
+.landingpage-button span {width: 0;margin-left: 0;top: 0;}
+	.footer {
+		background: #afa7a7;
+	}
+	#carousel-featuredwork-indicators {
+		 bottom: 0%;
+		 left: 29%;
+		 width: 58%;
+	}
+	.carousel-indicators {
+    left: 50%;
+    width: 94%;
+    margin-left: -47%;
+    margin-bottom: -55px;
+    padding-left: 0;
+    }
+
+		.notransition {
+		-o-transition-property:none !important;
+		-moz-transition-property:none !important;
+		-ms-transition-property:none !important;
+		-webkit-transition-property:none !important;
+		transition-property:none !important;
+		/*CSS transforms*/
+		-o-transform:none !important;
+		-moz-transform:none !important;
+		-ms-transform:none !important;
+		-webkit-transform:none !important;
+		transform:none !important;
+		/*CSS animations*/
+		-webkit-animation:none !important;
+		-moz-animation:none !important;
+		-o-animation:none !important;
+		-ms-animation:none !important;
+		animation:none !important;
+		opacity:1!important;
+	}
+	html {
+		opacity:1!important;
+	}
+	.tinynav {
+		position:absolute;
+		top:0;
+		width:100%;
+		clear:both;
+		float:none;
+		margin-top:0;
+		margin-bottom:0;
+		font-weight:500;
+		height:40px;
+		padding:3px;
+		margin:0;
+		-webkit-box-shadow:0 3px 0 #ccc,0 -1px #fff inset;
+		-moz-box-shadow:0 3px 0 #ccc,0 -1px #fff inset;
+		box-shadow:0 3px 0 #ccc,0 -1px #fff inset;
+		background:#f54828;
+		color:#fff;
+		font-size:14px;
+		border:none;
+		outline:none;
+		display:block;
+		-webkit-appearance:none;
+		-moz-appearance:none;
+		appearance:none;
+		cursor:pointer;
+		-webkit-padding-start:20px;
+		-webkit-border-radius:0px;
+		-moz-border-radius:0px;
+		border-radius:0px;
+	}
+	.navbar>.container .navbar-brand {
+		margin-top:5px;
+	}
+	.navbar .container {
+		padding-left:0px;
+	}
+	.navbar-fixed-top {
+		position:absolute;
+	    border-radius: 9px;
+	    border: 7px;
+	    padding-left: -9px;
+	    /* padding-left: 21px; */
+	    padding-right: 0px;
+	    padding-top: 7px;
+	    padding-bottom: -8px;
+	    margin-top: 10px;
+	    width: 91%;
+	    padding-bottom: 1px;
+	}
+	.logo-main {   
+	    height: 30px;
+	    width: 284px;
+	    background-size: contain;
+	}
+	.navbar-fixed-top {
+		top:0;
+	}
+	#c-slide {
+		margin-top:130px !Important;
+	}
+	.container>.navbar-header,.container>.navbar-collapse {
+		padding-left:15px;
+		margin-bottom:0px;
+	}
+	.toparea {
+		display:none;
+	}
+	.carousel-control.left,.carousel-control.right {
+		margin-top:50%;
+	}
+	.slide1-1 {
+		margin-top:-120px;
+	}
+	.slide1-2 {
+		right:80px;
+		top:20px;
+	}
+	.slide1-3 {
+		top:80px;
+	}
+	.carousel p {
+		line-height:20px;
+	}
+	#back-top {
+		display:none !important;
+	}
+	.intro-note p {
+		padding-left:0;
+		padding-right:0;
+		line-height: 22px;
+    	font-size: 16px;
+	}
+	h1.small {
+    font-size: 20px;
+    }
+    .portrait-ld {
+    float: left;
+    margin-top: 7px;
+	}
+	.blockquote p {
+    font-size: 17px;
+    line-height: 25px;
+	}
+	.service-box p {
+    line-height: 16px;
+	}
+	.home-portfolio h4 {
+    font-size: 13px;
+    line-height: 15px;
+	}
+	.toparea .social-icons {
+		display:none;
+	}
+	#c-slide .item {
+    background-position-x: 365px !important;
+    padding: 30px 0px 90px;
+    max-height: 164px;
+    top: 10px;
+    text-align: center;
+    }
+	#c-slide {
+		margin-top:176px;
+	}
+	.carouselClickBox{
+		/*height:auto;*/
+		margin-left: -100px;
+		background-position-x: 400px !important;
+		padding:30px 0px 90px;
+		max-height:100px;
+		text-align:center;
+		/*background-color:yellow;*/
+	}
+	.nbcu-image, .wilmette-image {
+    width:333px;
+    height: 200px;
+    }
+    .swiper-img-whiskey, .swiper-img-ablecare, .swiper-img-edgemount, .swiper-img-optioncare, .swiper-img-dell, 
+    .swiper-img-nbcu, .swiper-img-wataah, .swiper-img-wilmette, .swiper-img-clairmail, .swiper-img-banners {
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 454px;
+	}
+	.swipermy-slide-link-ani {
+    height: 200px !important;
+    }
+	.swiper-pagination-bullets {
+    bottom: 2px !important;
+    }    
+	.copa-mudial, .copa-mudial {
+    width: 330px; 
+	}
+	.footer h1 {
+    font-size: 13px;
+	}
+
+	.nbcu-image, .avaya-image, .ableto-image, .redemption-image, .edgemont-image, .wilmette-image, .delltech-image, .watahh-image {
+    height: 124px;
+	}
+	.drop-cap {
+    width: 40px;
+	}
+	.flex-video iframe {
+    border: 0px solid black;
+	}
+	.mastercard-banner, .statestreet-banner, .statestreet2-banner {
+    width: 100%;
+    height: 82px;
+	}
+	.nbcu-image {
+    border: 0px solid black;
+	}
+	.footer textarea {
+    margin-right: 88px;
+	}
+	.aesthetic-image {
+    width: 495px;
+    height: 164px;
+	}
+	.secondchance-image {
+    width: 302px;
+    height: 187px;
+	}
+	.wilmette-image{
+    height: 171px;
+	}
+	.watahh-image{
+    height: 165px;
+	}
+	#c-slide iframe {
+		max-width:85%;
+		margin-bottom:20px;
+	}
+	.carouselvshadow {
+		display:none;
+	}
+	#carousel-featuredwork .item {
+	/*margin-left: 120px;*/
+	padding: 0;
+	height: 220px;
+	width:auto;
+	margin-left: 0px;
+	}
+	
+	#carousel-featuredwork .carousel-inner {
+	margin-left: 0% !important;
+	}
+	
+	.flex-video iframe,
+	.flex-video {
+		/*padding-top: 25px;*/
+		  width: 100%;
+		  height: auto;
+		  padding-bottom: 60% !important;
+		  overflow: visible;
+		  margin-left: -1px !important;
+	}
+    .avaya-image{ /* avaya screen shot */
+	 z-index: 10;
+	 background: url(img/avaya_detailpage_small.jpg) 0 0 no-repeat;
+	 background-size: contain;
+	 width: 275px;
+	 height: 156px;
+	 /*margin-left: -12px;*/
+	 /* margin-right: auto; */
+	 }
+	 .wrapnewportbox{
+	 margin-left: 30px;
+	 margin-top: -10px;	
+	 }
+	 .iphone-bg{ /* avaya screen shot */
+	 width: 350px;
+	 }
+	
+	
+	.footer h1 {
+		margin-top:20px;
+	}
+	.copyright ul.footermenu {
+		margin-top:0px;
+		height: 22px;
+	}
+	.copyright p {
+		float:none !Important;
+	}
+	.cbp-qtrotator blockquote footer {
+		margin-bottom: 30px;
+	}
+}

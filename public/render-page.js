@@ -15,7 +15,6 @@
 exports.ssrComponents = {
   "component---cache-dev-404-page-js": preferDefault(__webpack_require__(/*! ./.cache/dev-404-page.js */ "./.cache/dev-404-page.js")),
   "component---src-pages-404-js": preferDefault(__webpack_require__(/*! ./src/pages/404.js */ "./src/pages/404.js")),
-  "component---src-pages-ableto-js": preferDefault(__webpack_require__(/*! ./src/pages/ableto.js */ "./src/pages/ableto.js")),
   "component---src-pages-index-js": preferDefault(__webpack_require__(/*! ./src/pages/index.js */ "./src/pages/index.js"))
   }
 
@@ -9009,7 +9008,10 @@ const Swipermy = () => {
     className: `carouselText4 animated fadeInUp`
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement("i", null, "Dell Technologies"), " main web site. Built with the NYC agency Rebelion Design."))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement(swiper_react__WEBPACK_IMPORTED_MODULE_16__.SwiperSlide, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement("div", {
     className: `swipermy-slide swiper-img-nbcu`
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    className: `swipermy-slide-link`,
+    to: "/NBCU"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement("div", {
     className: `swipermy-container`
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement("div", {
     className: `row`
@@ -9055,7 +9057,10 @@ const Swipermy = () => {
     className: `carouselText4 animated fadeInUp`
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement("i", null, "NBCU Creative Group"), " web site. Lead Developer with the NBCU Creative Group."))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement(swiper_react__WEBPACK_IMPORTED_MODULE_16__.SwiperSlide, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement("div", {
     className: `swipermy-slide swiper-img-wataah`
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    className: `swipermy-slide-link`,
+    to: "/Watahh"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement("div", {
     className: `swipermy-container`
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement("div", {
     className: `row`
@@ -9101,7 +9106,10 @@ const Swipermy = () => {
     className: `carouselText4 animated fadeInUp`
   }, "WAT-AAH! ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement("i", null, "Taking Back the Streets"), " collector bottles and artwork show case. Built for WAT-AAH! New York City. I was the sole developer and producer."))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement(swiper_react__WEBPACK_IMPORTED_MODULE_16__.SwiperSlide, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement("div", {
     className: `swipermy-slide swiper-img-wilmette`
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    className: `swipermy-slide-link`,
+    to: "/Wilmette"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement("div", {
     className: `swipermy-container`
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement("div", {
     className: `row`
@@ -9147,7 +9155,10 @@ const Swipermy = () => {
     className: `carouselText4 animated fadeInUp`
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement("i", null, "Wilmette Historical Museum"), " Lead developer and designer with the Wilmette Historical Museum."))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement(swiper_react__WEBPACK_IMPORTED_MODULE_16__.SwiperSlide, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement("div", {
     className: `swipermy-slide swiper-img-clairmail`
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    className: `swipermy-slide-link`,
+    to: "/MobileBanking"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement("div", {
     className: `swipermy-container`
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement("div", {
     className: `row`
@@ -9193,7 +9204,10 @@ const Swipermy = () => {
     className: `carouselText4 animated fadeInUp`
   }, "Partnered with Monitise N.America. Customised for several banks, Bank of Montreal shown here. Demonstrates to users mobile banking functions on several telephone types."))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement(swiper_react__WEBPACK_IMPORTED_MODULE_16__.SwiperSlide, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement("div", {
     className: `swipermy-slide swiper-img-banners`
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    className: `swipermy-slide-link`,
+    to: "/banners"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement("div", {
     className: `swipermy-container`
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement("div", {
     className: `row`
@@ -9443,67 +9457,6 @@ const NotFoundPage = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.creat
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "404: Not Found"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "You just hit a route that doesn't exist... the sadness."));
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (NotFoundPage);
-
-/***/ }),
-
-/***/ "./src/pages/ableto.js":
-/*!*****************************!*\
-  !*** ./src/pages/ableto.js ***!
-  \*****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
-/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/layout */ "./src/components/layout.js");
- // eslint-disable-next-line
-
-
-
-
-const AbleTo = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_layout__WEBPACK_IMPORTED_MODULE_2__.default, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-  className: "pageheader-default text-center"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "semitransparentbg"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
-  className: "animated fadeInLeftBig notransition"
-}, "AbleTo Virtual Mental Health Programs "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-  className: "animated fadeInRightBig notransition container page-description"
-}, "A re-design and re-build of AbleTo main site.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Partnered with AbleTo, Inc."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "wrapsemibox"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  class: "container"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "row"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "span8"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "ableto-image",
-  id: "ableto-image"
-})))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-  className: "container"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "row"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "col-md-8 animated fadeInLeft notransition"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
-  className: "smalltitle"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-  href: "http://www.ableto.com/"
-}, "AbleTo Virtual Behavioral Health Care "))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-  className: "drop-cap round"
-}, "A"), "bleTo is a leading provider of virtual behavioral health care. Deep behavioral health insights and an integrated proprietary online platform identifies and engages the right patients with the right support."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Year Creation"), "\xA0: 2019-20 ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Client's Name"), "\xA0: AbleTo, Inc ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Web Category"), "\xA0: Corporate web site ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, "Contribution"), "\xA0: Development, Design and Consultation", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "col-md-4 animated fadeInRight notransition"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
-  className: "smalltitle"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, "Testimonial")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("blockquote", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "The client said"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "\"We are so proud of our new site. I have already added press releases and they look so much better!\"", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("small", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("b", null, " M.M. -AbleTo ")))))))));
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (AbleTo);
 
 /***/ }),
 

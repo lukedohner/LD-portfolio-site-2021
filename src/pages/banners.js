@@ -3,11 +3,11 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
-import SEO from '../components/seo'
+import seo from '../components/seo'
 
 const Banners = () => (
   <Layout>
-    <SEO title="Banners" keywords={[`gatsby`, `application`, `react`]} />
+    <seo title="Banners" keywords={[`gatsby`, `application`, `react`]} />
 
     <section className="pageheader-default text-center">
 		

@@ -5,7 +5,7 @@ import loadable from '@loadable/component'
 
 import {Helmet} from 'react-helmet'
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import seo from "../components/seo"
 import Swipermy from '../components/swipermy'
 import Proclaim from '../components/proclaim'
 import Swipersmall from '../components/swipersmall'
@@ -24,7 +24,7 @@ const IndexPage = () => (
       <title>Luke Home Page</title>
       <meta name="description" content="Home Page" />
     </Helmet>
-    <SEO title="Home-p" keywords={[`gatsby`, `application`, `react`]} />
+    <seo title="Home-p" keywords={[`gatsby`, `application`, `react`]} />
 
    <div style={{ marginTop: `88px` }}>
     <Swipermy />

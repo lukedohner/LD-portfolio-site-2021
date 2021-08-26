@@ -3,11 +3,11 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
-import SEO from '../components/seo'
+import seo from '../components/seo'
 
 const Redemption = () => (
   <Layout>
-    <SEO title="Redemption" />
+    <seo title="Redemption" />
     
 
     <section className="pageheader-default text-center">

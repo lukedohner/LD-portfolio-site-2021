@@ -16,7 +16,7 @@ exports.components = {
   "component---src-pages-index-copy-js": preferDefault(require("/luke_projects_all/Luke-site-calypsoBootstrap/calypso/gatsby-ld/LukeSite-Build-From-Scratch-Aug11-2021/LD-portfolio-site/src/pages/index copy.js")),
   "component---src-pages-index-js": preferDefault(require("/luke_projects_all/Luke-site-calypsoBootstrap/calypso/gatsby-ld/LukeSite-Build-From-Scratch-Aug11-2021/LD-portfolio-site/src/pages/index.js")),
   "component---src-pages-mobile-banking-js": preferDefault(require("/luke_projects_all/Luke-site-calypsoBootstrap/calypso/gatsby-ld/LukeSite-Build-From-Scratch-Aug11-2021/LD-portfolio-site/src/pages/MobileBanking.js")),
-  "component---src-pages-nbcu-js": preferDefault(require("/luke_projects_all/Luke-site-calypsoBootstrap/calypso/gatsby-ld/LukeSite-Build-From-Scratch-Aug11-2021/LD-portfolio-site/src/pages/NBCU.js")),
+  "component---src-pages-nbcu-js": preferDefault(require("/luke_projects_all/Luke-site-calypsoBootstrap/calypso/gatsby-ld/LukeSite-Build-From-Scratch-Aug11-2021/LD-portfolio-site/src/pages/nbcu.js")),
   "component---src-pages-optioncare-js": preferDefault(require("/luke_projects_all/Luke-site-calypsoBootstrap/calypso/gatsby-ld/LukeSite-Build-From-Scratch-Aug11-2021/LD-portfolio-site/src/pages/Optioncare.js")),
   "component---src-pages-page-2-js": preferDefault(require("/luke_projects_all/Luke-site-calypsoBootstrap/calypso/gatsby-ld/LukeSite-Build-From-Scratch-Aug11-2021/LD-portfolio-site/src/pages/page-2.js")),
   "component---src-pages-redemption-js": preferDefault(require("/luke_projects_all/Luke-site-calypsoBootstrap/calypso/gatsby-ld/LukeSite-Build-From-Scratch-Aug11-2021/LD-portfolio-site/src/pages/redemption.js")),

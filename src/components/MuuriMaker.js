@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+git import React, { Component } from 'react'
 import MuuriGrid from 'react-muuri';
 
 
@@ -10,7 +10,6 @@ import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 
 import '../styles/bootstrap.css'
-
 import '../styles/layout.css'
 import '../styles/custom.css'
 import '../styles/gridisotope.css'

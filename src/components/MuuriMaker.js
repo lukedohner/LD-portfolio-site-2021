@@ -98,7 +98,6 @@ class MuuriMaker extends Component {
                   <div className="plusoverlay"></div>
 
                   <div className="clairmail"></div>
-
                   <div className="md-sq-img"></div>
                 <div className="overlay">
                     <h2>ClairMail</h2>

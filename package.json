@@ -25,6 +25,7 @@
     "react-helmet": "^6.1.0",
     "react-id-swiper": "^4.0.0",
     "react-muuri": "^0.3.0",
+    "sharp": "^0.29.0",
     "swiper": "^6.8.1",
     "typescript": "^4.3.5"
   },

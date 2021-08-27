@@ -3,7 +3,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
-import seo from '../components/SEO'
+import seo from '../components/seo'
 
 const NBCU = () => (
   <Layout>

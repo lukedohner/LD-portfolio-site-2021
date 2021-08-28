@@ -1,4 +1,4 @@
-git import React, { Component } from 'react'
+import React, { Component } from 'react'
 import MuuriGrid from 'react-muuri';
 
 

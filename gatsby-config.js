@@ -6,7 +6,7 @@ module.exports = {
     siteUrl: `https://www.lukedohner.com`,
     menuLinks:[
         {
-           name:`home`,
+           name:`homeDebug`,
            link:`/`
         },
         {

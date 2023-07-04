@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "@babel/eslint-parser": "^7.15.0",
+    "@babel/eslint-parser": "^7.22.6",
     "@loadable/component": "^5.15.0",
     "acorn": "^8.4.1",
     "babel-eslint": "^10.1.0",
